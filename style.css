@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+
+
+.parent{
+    width: 500px;
+    height: 450px;
+    /* border: 1px orange solid; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+}
+.b1{
+    width: 247px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgb(204, 142, 235);
+    
+    
+}
+.b2{
+    width: 247px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgb(204, 142, 235);
+
+   
+}
+.b3{
+    width: 125px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgb(204, 142, 235);
+}
+.b4{
+    width: 370px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgb(204, 142, 235);
+}
+.b5{
+    width: 495px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    background-color: rgb(204, 142, 235);
+}
+.rightbox{
+    width: 500px;
+    height: 450px;
+    background-color: darkkhaki;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.world{
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+.mainimg{
+    display: none;
+}
+.img2{
+    display: none;
+}
+
+
+
+@media (max-width:540px) {
+    .mainimg{
+        display: contents;
+        transform: scale(0.5);
+        width: 100%;
+    }
+    .parent{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .b1{
+        width: 49%;
+       
+    }
+    .b2{
+        width: 49%;
+    }
+    .b3{
+        width: 29%;
+    }
+    .b4{
+        width: 69%;
+    }
+    .b5{
+        width: 98%;
+    }
+    .rightbox{
+        display: none;
+    }
+    .world{
+        bottom: -65px;
+        font-size: 35px;
+        color: white;
+       
+    }
+    /* .childimg{
+        width: 400px;
+        transform: scale(0.5);
+        margin-left: -75px;
+       
+    } */
+    .flex{
+        width: 100%;
+        flex-direction: column;
+       
+        height:auto;
+        /* justify-content: center; */
+    }
+    .childimg{
+        display: none;
+    }
+    .img2{
+        display: contents;
+        position: absolute;
+        bottom: 250px;
+        box-sizing: border-box;
+        width: 300px;
+    }
+   
+    
+}
